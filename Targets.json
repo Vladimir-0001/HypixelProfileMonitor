@@ -1,20 +1,4 @@
 {
    "targets": {
-      "kel_tec": {
-         "uuid": "f0557c3dffce40a5bce8e859b37b819e",
-         "gameType": null,
-         "mode": null,
-         "map": null,
-         "online": false,
-         "name": "kel_tec"
-      },
-      "ragemiles": {
-         "uuid": "e818d2005282483fa97d8dcc1cb1b4ff",
-         "gameType": "BEDWARS",
-         "mode": "LOBBY",
-         "map": null,
-         "online": true,
-         "name": "ragemiles"
       }
-   }
 }

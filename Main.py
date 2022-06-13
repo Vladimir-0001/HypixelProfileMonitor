@@ -6,24 +6,25 @@ import threading
 import requests
 
 
-################################################################################################################################
-# WARNING : using this bot is against Hypixel's Terms of Service and may result in a api-reset or api-ban use at your own risk.#
-################################################################################################################################
+####################################################################################################################################
+# WARNING : using this bot may be against Hypixel's Terms of Service and may result in a api-reset or api-ban use at your own risk.#
+####################################################################################################################################
 # This bot was made by: Vladimir#0001.#
 #######################################
 
 
-POLLING_RATE = 20 # how long to wait between checking for change in status
-HYPIXEL_API_KEY = "ef2efcf7-35b7-4ae7-9315-9e729feeaa63" #your hypixel api key get this by doing "/api new" in the hypixel server
-UPDATE_CHANNEL_ID = "982403919823126528" # the channel to send the update to 
-YOUR_ID = "751267871342198833" # your id leave blank if you dont want to ping yourself
-DISCORD_BOT_TOKEN = "OTYwMzY4NzMwNzIwODYyMjg4.Ghbw8r.uQtvXTp0sabhG3pHmGbW5_E6BBOmVxDAJhQ9sM"
+POLLING_RATE = 15 # how long to wait between checking for change in status
+HYPIXEL_API_KEY = "" #your hypixel api key get this by doing "/api new" in the hypixel server
+UPDATE_CHANNEL_ID = "" # the id of channel to send the update to 
+YOUR_ID = "" # your discord id leave blank if you dont want to ping yourself
+DISCORD_BOT_TOKEN = "" # your discord bot token
 NOTIFY_WHEN_ONLINE = True # if you want to ping yourself when the target goes online
 NOTIFY_WHEN_OFFLINE = True # if you want to ping yourself when the target goes offline
 NOTIFY_ON_GAMECHANGE = True # if you want to ping yourself when the target changes gamemode's
 
-
-
+###########################################################################################
+#DO NOT EDIT BELOW THIS LINE UNLESS YOU KNOW WHAT YOU ARE DOING OR YOU WILL BREAK THE BOT.#
+###########################################################################################
 
 class Target():
     def __init__(self):
